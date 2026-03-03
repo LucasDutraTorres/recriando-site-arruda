@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="menu-container">
+        <div class="flex-header">
+            <div>
+                <img src="https://arrudaalimentos.com.br/wp-content/uploads/2021/05/Arruda2021-1200x526.png" alt="logo"
+                    style="height: 50px !important; width: auto !important;">
+            </div>
+
+            <div class="header-right">
+                <div class="socialIcons">
+                    <img src="../imgs/facebook.png" alt="iconFacebook" class="icon">
+                    <img src="../imgs/instagram.png" alt="iconInstagram" class="icon">
+                    <img src="../imgs/whatsapp.png" alt="iconWhatsapp" class="icon">
+                </div>
+                <div class="buttonActions">
+                    <a href="../html/link.html" class="header-link">Comprar Online</a>
+
+                    <!-- Lupa centralizada ou posicionada no header -->
+                    <div class="search-icon-wrapper">
+                        <img src="../imgs/lupa.png" alt="research" class="iconresearch" id="search-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BARRA DE PESQUISA (Escondida por padrão no CSS ) -->
+        <div id="search-bar" class="search-bar">
+            <input type="text" placeholder="O que você procura?">
+            <button>Buscar</button>
+        </div>
+
+        <div class="nav-container">
+            <button id="menu-button" class="menu-button"> &#9776 </button>
+            <nav id="nav-menu" class="nav-menu">
+                <ul>
+                    <li><a href="#">HOME </a> </li>
+                    <li><a href="#">SOBRE </a> </li>
+                    <li><a href="#">PRODUTOS ▾</a> </li>
+                    <li><a href="#">RECEITAS </a> </li>
+                    <li><a href="#">NOTÍCIAS </a> </li>
+                    <li><a href="#">CONTATO </a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="banner-container">
+        <img src="../imgs/imgProduto_resized.jpg" alt="imagemProduto1" class="imgProduto">
+        <div class="texto-sobre-imagem">
+            <h1>Produtos Feitos</h1>
+            <h2>com amor e cuidado.</h2>
+        </div>
+    </div>
+    <!-- Segunda imagem de produtos da pagina!-->
+    <div>
+        <img src="../imgs/produtosArruda.jpg" alt="imgSegundaria" class="imgSegundaria">
+    </div>
+
+    <!-- Container para centralizar o botão -->
+    <div class="container-botao">
+        <a href="/html/link.html" class="ButtonProducts">Conheça nossos produtos!</a>
+    </div>
+
+    <!-- Seção de Ingredientes com Caixa na Esquerda -->
+    <div class="secao-ingredientes">
+        <div class="container-molhos">
+            <!-- Caixa Laranja  -->
+            <div class="caixa-laranja">
+                <h3>Ingredientes para receitas deliciosas</h3>
+                <p>Com o propósito de aumentar cada vez mais a qualidade dos produtos, a Arruda usa hoje na produção de
+                    seus produtos matérias-primas provenientes de plantações próprias. Isso garante a máxima qualidade
+                    dos produtos, desde o plantio ao produto final.</p>
+            </div>
+
+            <!-- Imagem Dos Molhos -->
+            <img src="../imgs/imagemMolhos.jpeg" alt="imgMolhos" class="imgMolhos">
+        </div>
+    </div>
+
+    <section class="secao-receitas">
+        <div class="container-receitas">
+            <!-- Lado Esquerdo: Texto e Botões -->
+            <div class="receitas-info">
+                <h2 class="titulo-delicias">Delícias
+                    <span class="subtitulo-mesa">para sua mesa</span>
+                </h2>
+                <p class="descricao-receitas">
+                    CONFIRA RECEITAS DE DAR ÁGUA NA BOCA QUE A ARRUDA ALIMENTOS PREPAROU PARA VOCÊ.
+                    SUA FAMÍLIA VAI ADORAR, É SÓ AGUARDAR OS ELOGIOS.
+                </p>
+                <div class="botoes-receitas">
+                    <a href="#" class="btn-azul">CONFIRA TODAS AS RECEITAS <i class="seta">›</i></a>
+                    <a href="#" class="btn-azul">ENVIE A SUA RECEITA <i class="seta">›</i></a>
+                </div>
+            </div>
+
+            <!-- Lado Direito: Cartões de Receitas -->
+            <div class="receitas-cards">
+                <!-- Card 1 -->
+                <div class="card">
+                    <img src="../imgs/moqueca.jpg" alt="Moqueca de Surubim">
+                    <h3>MOQUECA DE SURUBIM</h3>
+                    <a href="#" class="link-confira">Confira »</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <img src="../imgs/sanduiche.jpg" alt="Sanduíche de Carne Louca">
+                    <h3>SANDUÍCHE DE CARNE LOUCA</h3>
+                    <a href="#" class="link-confira">Confira »</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="../js/index.js" type="module"></script>
+</body>
+
+</html>
